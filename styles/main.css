@@ -5,54 +5,182 @@
 body {
     margin: 0;
     font-family: 'Open Sans' sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
+    line-height: 1.6;
   }
+
+  /* tekstakders */
+
+.tekstkader1 {
+    background-color: rgb(23,28,70); 
+    color: white; 
+    padding-left: 30px;
+}
+
+.tekstkader2 {
+    background-color: rgb(182, 103, 98); 
+    color: white; 
+    padding-left: 30px;
+}
+
+.tekstkader3 {
+    background-color: rgb(175,143,122); 
+    color: white; 
+    padding-left: 30px;
+}
+
+.tekstkader4 {
+    background-color: rgb(155,137,99); 
+    color: white; 
+    padding-left: 30px;
+}
+
+.tekstkader5 {
+    background-color: rgb(57,41,34); 
+    color: white; 
+    padding-left: 30px;
+}
+
+
 
 /* imagehaders films */
   .imageheader1{
     background-image: url('../images/redemptionweb.jpg');
     background-size:cover;
-    
+    min-height: 400px;
 }
 
 .imageheader2{
     background-image: url('../images/schindlerweb.jpg');
     background-size:cover;
+    min-height: 400px;
 }
 
 .imageheader3{
     background-image: url('../images/atonementweb.jpg');
     background-size:cover;
+    min-height: 400px;
 }
 
 .imageheader4{
     background-image: url('../images/intouchablesweb.jpg');
     background-size:cover;
+    min-height: 400px;
 }
 
 .imageheader5{
     background-image: url('../images/greenmileweb.jpg');
     background-size:cover;
+    min-height: 400px;
 }
 
-/* Buttons */
-button {
-    margin: 20px; 
+
+/* buttons */
+
+a {
+   text-decoration: none;
    
 }
 
-.btn {
-    color: orange; 
+.button1 {
+    display: inline-block;
+    background-color: white;
+    color: rgb(23,28,70); 
     border-color: white;
     border: 3px solid white;
     padding: 0 32px;
-  
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
-.btn:hover {
-    background-color: orange;
-    border: 3px solid orange;
+.button1:hover {
+    background-color: white;
+    border: 3px solid  white; 
+    color:  rgb(23,28,70); 
+    text-decoration: none;
+}
+
+.button2 {
+    display: inline-block;
+    background-color: white;
+    color: rgb(182, 103, 98);
+    border-color: white;
+    border: 3px solid white;
+    padding: 0 32px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.button2:hover {
+    background-color: white;
+    border: 3px solid  white; 
+    color:  rgb(182, 103, 98);
+    text-decoration: none;
+}
+
+.button3 {
+    display: inline-block;
+    background-color: white;
+    color: rgb(175,143,122);
+    border-color: white;
+    border: 3px solid white;
+    padding: 0 32px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.button3:hover {
+    background-color: white;
+    border: 3px solid  white; 
+    color: rgb(175,143,122);
+    text-decoration: none;
+}
+
+
+.button4 {
+    display: inline-block;
+    background-color: white;
+    color: rgb(155,137,99); 
+    border-color: white;
+    border: 3px solid white;
+    padding: 0 32px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.button4:hover {
+    background-color: white;
+    border: 3px solid  white; 
+    color:  rgb(155,137,99); 
+    text-decoration: none;
+}
+
+.button5 {
+    display: inline-block;
+    background-color: white;
+    color: rgb(57,41,34);  
+    border-color: white;
+    border: 3px solid white;
+    padding: 0 32px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.button5:hover {
+    background-color: white;
+    border: 3px solid  white; 
+    color:  rgb(57,41,34);  
+    text-decoration: none;
 }
 
 
@@ -92,19 +220,15 @@ button {
     display:flex; 
     padding-top: 30px;
     min-height: 30%;
+    margin: 0;
 }
 
 .hoofdrol {
     padding-top: 0px;
 }
 
-.tekstkader {
-    background-color: black;
-    color: white; 
-    padding-left: 30px;
-}
 strong {
-    color: orange;
+    color: rgb(147,77,41);
 }
   h1{
     text-align: right; 
@@ -122,12 +246,12 @@ h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: inherit;
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h3 {
     font-family: 'Open Sans' sans-serif; 
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
 }
 
@@ -160,7 +284,7 @@ h3 {
 footer {
     margin-top: 40px;
     padding: 15px; 
-    background-color: black; 
+    background-color:rgb(147,77,41); 
 }
 footer img {
     height: 50px; 
